@@ -12,12 +12,12 @@ https://gitpod.io/https://github.com/mauromarx/ERAD-NE_2025
 3. Install the required bundles using the ecl command line interface with administrator rights from your clienttools/bin folder (for further details, please visit: https://hpccsystems.com/download/free-modules):
 
 ```
-- General Bundles:
+- General Bundles (example, in this case for HPCC Systems version "9.4.0"):
 cd "C:\Program Files (x86)\HPCCSystems\9.4.0\clienttools\bin"
 ecl bundle install https://github.com/hpcc-systems/DataPatterns.git
 ecl bundle install https://github.com/hpcc-systems/Visualizer.git
 
-- Machine Learning Bundles:
+- Machine Learning Bundles (example, in this case for HPCC Systems version "9.4.0"):
 cd "C:\Program Files (x86)\HPCCSystems\9.4.0\clienttools\bin"
 ecl bundle install https://github.com/hpcc-systems/ML_Core.git
 ecl bundle install https://github.com/hpcc-systems/PBblas.git
